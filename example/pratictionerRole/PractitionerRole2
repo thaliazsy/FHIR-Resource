@@ -1,0 +1,12 @@
+{
+  "resourceType": "PractitionerRole",
+  
+  "active": true,
+  "practitioner": {
+    "reference": "Practitioner/1230",
+    "display": "Dr Sara Specialize"
+  },
+  "organization": {
+    "reference": "Organization/4"
+  }
+}

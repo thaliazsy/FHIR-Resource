@@ -1,0 +1,22 @@
+{
+  "resourceType": "Slot",
+ 
+  "serviceCategory": [
+    {
+      "coding": [
+        {
+          "code": "17",
+          "display": "General Practice"
+        }
+      ]
+    }
+  ],
+  "schedule": {
+    "reference": "Schedule/1233"
+  },
+  "status": "free",
+  "start": "2013-12-25T09:15:00Z",
+  "end": "2013-12-25T09:30:00Z",
+  "comment" :"Max number of this slot = 30"
+   
+}

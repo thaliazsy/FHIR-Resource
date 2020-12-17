@@ -1,0 +1,64 @@
+{
+    "resourceType": "ImagingStudy",
+    "identifier": [
+      {
+        "system": "urn:dicom:uid",
+        "value": "urn:oid:1.3.6.1.4.1.5962.99.1.392793638.85272995.1542286085670.4.0"
+      }
+    ],
+    "status": "available",
+    "subject": {
+      "reference": "Patient/858b1cca-246800b9-ccf2765e-96783fe1-109d3b18"
+    },
+    "started": "2017-09-27T16:39:39+00:00",
+    "numberOfSeries": 1,
+    "numberOfInstances": 4,
+    "series": [
+      {
+        "uid": "1.3.6.1.4.1.5962.99.1.392793638.85272995.1542286085670.5.0",
+        "number": 49824,
+        "modality": {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "MG"
+        },
+        "numberOfInstances": 4,
+        "bodySite": {
+          "display": "Breast"
+        },
+        "instance": [
+          {
+            "uid": "1.3.6.1.4.1.5962.99.1.392793638.85272995.1542286085670.3.0",
+            "sopClass": {
+              "system": "urn:ietf:rfc:3986",
+              "code": "urn:oid:1.2.840.10008.5.1.4.1.1.1.2"
+            },
+            "number": 1
+          },
+          {
+            "uid": "1.3.6.1.4.1.5962.99.1.392793638.85272995.1542286085670.7.0",
+            "sopClass": {
+              "system": "urn:ietf:rfc:3986",
+              "code": "urn:oid:1.2.840.10008.5.1.4.1.1.1.2"
+            },
+            "number": 2
+          },
+          {
+            "uid": "1.3.6.1.4.1.5962.99.1.392793638.85272995.1542286085670.9.0",
+            "sopClass": {
+              "system": "urn:ietf:rfc:3986",
+              "code": "urn:oid:1.2.840.10008.5.1.4.1.1.1.2"
+            },
+            "number": 3
+          },
+          {
+            "uid": "2.16.124.113543.6003.189642796.63084.16748.2599092903",
+            "sopClass": {
+              "system": "urn:ietf:rfc:3986",
+              "code": "urn:oid:1.3.6.1.4.1.5962.99.1.392793638.85272995.1542286085670.11.0"
+            },
+            "number": 4
+          }
+        ]
+      }
+    ]
+  }

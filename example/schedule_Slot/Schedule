@@ -1,0 +1,28 @@
+{
+  "resourceType": "Schedule",
+  "active": true,
+  "serviceCategory": [
+    {
+      "coding": [
+        {
+          "code": "10",
+          "display": "Dental"
+        }
+      ]
+    }
+  ],
+  "actor": [
+    {
+      "reference": "Practitioner/1230",
+      "display": "Dr Sara Specialize"
+    },
+    {
+      "reference": "Location/1232",
+      "display": "Burgers University Medical Center, South Wing, second floor"
+    }
+  ],
+  "planningHorizon": {
+    "start": "2019-12-01T00:00:00Z",
+    "end": "2019-12-31T23:59:59Z"
+  }
+}

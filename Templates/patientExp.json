@@ -1,0 +1,15 @@
+{
+  "resourceType": "Patient",
+  "id": "858b1cca-246800b9-ccf2765e-96783fe1-109d3b18",
+  "identifier": [{
+    "use": "usual",
+    "system": "身分證字號",
+    "value": "2714178950844984"
+  }],
+  "name": [{
+    "text": "Anon 1"
+  }],
+  "managingOrganization": {
+    "reference": "Organization/TCUMI.106"
+  }
+}

@@ -1,0 +1,334 @@
+﻿{
+  "resourceType": "ImagingStudy",
+   "uid": "1.2.840.113619.186.212133104176.201708542343221487.50025",
+  "modalityList": [
+    {
+      "code": "CT"
+    },
+    {
+      "code": "MR"
+    }
+  ],
+  "patient": {
+    "reference": "Patient/2034710"
+  },
+  "started": "2019-08-19T16:03:28+08:00",
+  "procedureCode": [
+    {
+      "text": "MR扫描"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.12.2.1107.5.1.4.60394.3008240007374590000603925",
+      "number": 1,
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.1.4.60394.3000001708290j0ij6040251",
+          "number": 1,
+          "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.1.4.60394.3000001708290j0ij6040252",
+          "number": 2,
+          "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.1.4.60394.3000001708290j0ij6040253",
+          "number": 3,
+          "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.1.4.60394.3000001708290j0ij6040254",
+          "number": 4,
+          "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.1.4.60394.3000001708290j0ij6040255",
+          "number": 5,
+          "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+        }
+      ]
+    }
+  ]
+}
+
+
+{
+    "resourceType": "ImagingStudy",
+    "id": "2012464",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2019-07-30T14:46:15.801+00:00"
+    },
+    "uid": "urn:oid:1.2.840.99999999.84884205.1564497526617",
+    "patient": {
+      "reference": "Patient/2012326"
+    },
+    "context": {
+      "reference": "Encounter/2012455"
+    },
+    "started": "2015-11-04T15:58:13-05:00",
+    "numberOfSeries": 1,
+    "numberOfInstances": 1,
+    "series": [
+      {
+        "uid": "urn:oid:1.2.840.99999999.1.66767580.1564497526617",
+        "number": 1,
+        "modality": {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "DX",
+          "display": "Digital Radiography"
+        },
+        "numberOfInstances": 1,
+        "availability": "UNAVAILABLE",
+        "bodySite": {
+          "system": "http://snomed.info/sct",
+          "code": "344001",
+          "display": "Ankle"
+        },
+        "started": "2015-11-04T15:58:13-05:00",
+        "instance": [
+          {
+            "uid": "urn:oid:1.2.840.99999999.1.1.90448384.1564497526617",
+            "number": 1,
+            "sopClass": "urn:oid:1.2.840.10008.5.1.4.1.1.1.1",
+            "title": "Image of ankle"
+          }
+        ]
+      }
+    ]
+  }
+
+
+  {
+    "resourceType": "ImagingStudy",
+    "id": "1996024",
+    "fhir_comments": [
+      "影像檢查 v4.0.0@2018-12-27"
+    ],
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2019-07-27T17:05:38.475+00:00"
+    },
+    "text": {
+      "fhir_comments": [
+        "具人類可讀性之相關文字描述(text)"
+      ],
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> CT Chest. John Smith (MRN: 09236). Accession: W12342398. Performed: 2011-01-01. 1 series, 11張影像</div>"
+    },
+    "identifier": [
+      {
+        "fhir_comments": [
+          "識別碼"
+        ],
+        "system": "urn:oid:1.2.840.10008.2.16.4",
+        "value": "113014"
+      }
+    ],
+    "numberOfSeries": 1,
+    "_numberOfSeries": {
+      "fhir_comments": [
+        "檢查儀器的數量"
+      ]
+    },
+    "numberOfInstances": 11,
+    "_numberOfInstances": {
+      "fhir_comments": [
+        "影像切片的數量"
+      ]
+    },
+    "series": [
+      {
+        "fhir_comments": [
+          "系列"
+        ],
+        "uid": "1.2.840.113820.2.62.994044785528.2006082322314248505.1",
+        "_uid": {
+          "fhir_comments": [
+            "識別碼"
+          ]
+        },
+        "number": 1,
+        "_number": {
+          "fhir_comments": [
+            "數值編號"
+          ]
+        },
+        "modality": {
+          "fhir_comments": [
+            "檢查儀器"
+          ],
+          "system": "urn:oid:1.2.840.10008.2.16.4",
+          "code": "121139"
+        },
+        "description": "Abdoment CT",
+        "_description": {
+          "fhir_comments": [
+            "描述"
+          ]
+        },
+        "numberOfInstances": 11,
+        "_numberOfInstances": {
+          "fhir_comments": [
+            "影像切片的數量"
+          ]
+        },
+        "bodySite": {
+          "fhir_comments": [
+            "身體部位"
+          ],
+          "system": "https://loinc.org/",
+          "code": "55286-9",
+          "display": "Abdominal structure (body structure)"
+        },
+        "instance": [
+          {
+            "fhir_comments": [
+              "單一影像"
+            ],
+            "uid": "1.2.840.113820.2.62.994044785528.2006082322314248505.1.1",
+            "_uid": {
+              "fhir_comments": [
+                "識別碼"
+              ]
+            },
+            "number": 1,
+            "_number": {
+              "fhir_comments": [
+                "數值編號"
+              ]
+            },
+            "title": "Computed Tomography Image Storage",
+            "_title": {
+              "fhir_comments": [
+                "影像標題"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+
+  {
+    "resourceType": "ImagingStudy",
+    "id": "1977518",
+    "meta": {
+      "versionId": "1",
+      "lastUpdated": "2019-07-08T09:37:26.502+00:00"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">XR 胸部CT平扫. 张无忌 (MRN: 3128099). Accession: ZH170823CT4006. Performed: 2017-01-01. 1 series, 5 images.</div>"
+    },
+    "uid": "1.2.840.113619.186.21213310075194176.20170823085421487.500",
+    "accession": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "value": "ZH170823CT4006"
+    },
+    "identifier": [
+      {
+        "use": "secondary",
+        "value": "3128099"
+      }
+    ],
+    "availability": "ONLINE",
+    "modalityList": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT"
+      }
+    ],
+    "started": "2017-08-24T08:22:39+08:00",
+    "procedureCode": [
+      {
+        "coding": [
+          {
+            "system": "http://www.radlex.org",
+            "code": "RPID2589",
+            "display": "CT Chest"
+          }
+        ],
+        "text": "CT胸部平扫"
+      }
+    ],
+    "reason": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "357009",
+          "display": "检查转移病灶"
+        }
+      ]
+    },
+    "description": "CT Chest",
+    "series": [
+      {
+        "uid": "1.3.12.2.1107.5.1.4.60394.30000017082400073745900006039",
+        "number": 3,
+        "modality": {
+          "system": "http://dicom.nema.org/resources/ontology/DCM",
+          "code": "CT"
+        },
+        "description": "CT Scan",
+        "availability": "ONLINE",
+        "bodySite": {
+          "code": "HEAD"
+        },
+        "laterality": {
+          "system": "http://snomed.info/sct",
+          "code": "419161000",
+          "display": "Unilateral left"
+        },
+        "started": "2011-01-01T11:01:20+03:00",
+        "instance": [
+          {
+            "uid": "1.3.12.2.1107.5.1.4.60394.30000017082400073745900006040",
+            "number": 1,
+            "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+            "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+          },
+          {
+            "uid": "1.3.12.2.1107.5.1.4.60394.30000017082400073745900006041",
+            "number": 2,
+            "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+            "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+          },
+          {
+            "uid": "1.3.12.2.1107.5.1.4.60394.30000017082400073745900006042",
+            "number": 3,
+            "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+            "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+          },
+          {
+            "uid": "1.3.12.2.1107.5.1.4.60394.30000017082400073745900006044",
+            "number": 4,
+            "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+            "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+          },
+          {
+            "uid": "1.3.12.2.1107.5.1.4.60394.30000017082400073745900006053",
+            "number": 5,
+            "sopClass": "1.2.840.10008.5.1.4.1.1.2",
+            "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI DUAL\\STD\\DNRG\\DET_AB"
+          }
+        ]
+      }
+    ]
+  }

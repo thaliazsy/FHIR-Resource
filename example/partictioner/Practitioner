@@ -1,0 +1,20 @@
+{
+        "resourceType": "Practitioner",
+       "identifier": [
+          {          
+            "system": "https://www.dicom.org.tw/VirtualHospital",
+            "value": "222333333"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Specialize",
+            "given": [
+              "Sara"
+            ]
+          }
+        ],
+        "gender": "female"
+   }
+    

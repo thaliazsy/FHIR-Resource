@@ -1,0 +1,34 @@
+ {
+        "resourceType": "Condition",
+     
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/condition-category",
+                "code": "health-concern"
+              }
+            ],
+            "text": "Health Concern"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "300635000",
+              "display": "Unable to drive a car (finding)"
+            }
+          ],
+          "text": "太胖，走路要人扶"
+        },
+        "subject": {
+          "reference": "Patient/141007",
+          "display": "楊貴妃"
+        },
+        "onsetDateTime": "2012-09-15"
+       
+      }
+    
+    
+

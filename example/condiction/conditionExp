@@ -1,0 +1,41 @@
+{
+"resourceType": "Condition",
+ 
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active"
+      }
+    ]
+  },
+
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/ct",
+        "code": "6736007",
+        "display": "mild to moderate"
+      }
+    ],
+    "text": "mild to moderate"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/ct",
+        "code": "195917001",
+        "display": "asthma"
+      }
+    ],
+    "text": "asthma"
+  },
+  "subject": {
+    "reference": "Patient/40631"
+  },
+  "onsetAge": {
+    "value": 14,
+    "system": "http://unitsofmeasure.org",
+    "code": "a"
+  }
+}

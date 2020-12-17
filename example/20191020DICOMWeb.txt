@@ -1,0 +1,41 @@
+﻿
+寒假及下學期課程
+
+大專生科技部計畫
+
+FHIR breast report
+http://hl7.org/fhir/us/breast-radiology/2019Sep/index.html
+
+https://hapi.fhir.tw/fhir
+
+DCMTK 
+
+解 DICOM tag
+QT C++ 程式 解 DICOM tag
+DICOM tag to XML or JSON 
+pixel data 
+contour
+to imageStudy
+
+JS and node.js
+
+QT 電腦繪圖
+QT DICOM image display 
+QT Web server 
+
+WADO + STOW server 2D 3D
+
+TW testing server
+Mammo and breast report
+
+CT and X ray chest report
+ 
+10/23 早上十點 紀錄
+
+11/8-11 宜蘭交流
+
+
+
+
+
+image elearning system
